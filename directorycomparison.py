@@ -76,6 +76,6 @@ class DirectoryComparison():
     
 if __name__ == '__main__':
     # Directory comparison test
-    directoryComparison = DirectoryComparison("D:\Downloads", "C:\download")
+    directoryComparison = DirectoryComparison("C:\music", "D:\music")
     directoryComparison.printDirecotryDifferences()
     
